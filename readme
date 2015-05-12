@@ -1,0 +1,11 @@
+This is a from a tutorial on building a custom Audio player.  The code was pulled from http://r.osey.me/code/audio/ and then modified as it was studied.
+
+Modifications - todo
+1.  Create a servlet hosting an API to return
+	a) Random Songs to play along with title and image content
+	b) Potential event info from StubHub with a link to the event if the person wants to purchase
+2.  Servlet must:
+	a) Take a call for next song (genre???)
+	b) Make an API call to a 3rd party service to get the stream, image, title
+	c) Make an API call to StubHub for ticketing information
+	d) Bundle up the response and return to the UI in JSON format
